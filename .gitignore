@@ -1,3 +1,4 @@
-.git
-.ipynb_checkpoints
+.git/
+.ipynb_checkpoints/
+notebook/
 Fingerpori.ipynb
