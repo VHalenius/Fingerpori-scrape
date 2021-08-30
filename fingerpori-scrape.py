@@ -30,7 +30,7 @@ def fingerpori_download():
     print('Syötä ensimmäisen sarjakuvan url:')
     url = input()
 
-    print('Montako sarjakuvaa ladataan?') 
+    print('Montako sarjakuvaa ladataan?')  
     comic_count = int(input())+1
 
     for i in range(1, comic_count):
