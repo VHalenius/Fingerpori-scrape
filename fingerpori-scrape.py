@@ -5,6 +5,8 @@ import time
 from pathlib import Path
 import os
 
+DEFAULT = 'https://www.hs.fi/fingerpori/car-2000008287224.html'
+
 def fingerpori_download():
     # Session headers for requests
     HEADERS = {'user-agent': 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'}
@@ -28,6 +30,7 @@ def fingerpori_download():
         os.mkdir(save_dir)
 
     print('Syötä ensimmäisen sarjakuvan url:')
+    print('Oletus=' + DEFAULT)
     url = input()
 
     print('Montako sarjakuvaa ladataan?')  
