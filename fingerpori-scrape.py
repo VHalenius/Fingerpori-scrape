@@ -34,8 +34,7 @@ def fingerpori_download():
     url = input()
     if url == "":
         url = DEFAULT
-    else:
-        url = url
+    
 
     print('Montako sarjakuvaa ladataan?')  
     comic_count = int(input())+1
